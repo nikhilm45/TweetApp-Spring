@@ -1,0 +1,26 @@
+2021-05-24 18:27:24,738 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-6] #### -> Producing message -> this is rohit!!
+
+2021-05-24 18:27:25,579 INFO com.tweetapp.kafka.Producer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] #### -> Consumed message -> this is rohit!!
+
+2021-05-24 18:27:44,798 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-10] #### -> Producing message -> hii
+2021-05-24 18:28:25,660 ERROR org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Consumer exception
+java.lang.IllegalStateException: This error handler cannot process 'org.apache.kafka.common.errors.TimeoutException's; no record information is available
+	at org.springframework.kafka.listener.SeekUtils.seekOrRecover(SeekUtils.java:151)
+	at org.springframework.kafka.listener.SeekToCurrentErrorHandler.handle(SeekToCurrentErrorHandler.java:113)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.handleConsumerException(KafkaMessageListenerContainer.java:1374)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1085)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timeout of 60000ms expired before successfully committing offsets {tweetApp-0=OffsetAndMetadata{offset=5, leaderEpoch=null, metadata=''}}
+2021-05-24 18:28:25,678 INFO com.tweetapp.kafka.Producer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] #### -> Consumed message -> hii
+2021-05-24 18:29:25,695 ERROR org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Consumer exception
+java.lang.IllegalStateException: This error handler cannot process 'org.apache.kafka.common.errors.TimeoutException's; no record information is available
+	at org.springframework.kafka.listener.SeekUtils.seekOrRecover(SeekUtils.java:151)
+	at org.springframework.kafka.listener.SeekToCurrentErrorHandler.handle(SeekToCurrentErrorHandler.java:113)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.handleConsumerException(KafkaMessageListenerContainer.java:1374)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1085)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Timeout of 60000ms expired before successfully committing offsets {tweetApp-0=OffsetAndMetadata{offset=6, leaderEpoch=null, metadata=''}}

@@ -1,0 +1,14 @@
+2021-05-17 17:53:52,391 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 8612 (C:\Users\User\Documents\TweetApp-SpringBoot-master\target\classes started by User in C:\Users\User\Documents\TweetApp-SpringBoot-master)
+2021-05-17 17:53:52,449 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-17 17:56:27,319 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 7980 (C:\Users\User\Documents\TweetApp-SpringBoot-master\target\classes started by User in C:\Users\User\Documents\TweetApp-SpringBoot-master)
+2021-05-17 17:56:27,326 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-17 17:57:51,831 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 92.14 seconds (JVM running for 100.657)
+2021-05-17 18:03:07,922 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 3160 (C:\Users\User\Documents\TweetApp-SpringBoot-master\target\classes started by User in C:\Users\User\Documents\TweetApp-SpringBoot-master)
+2021-05-17 18:03:08,008 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-17 18:04:21,395 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 78.804 seconds (JVM running for 87.356)
+2021-05-17 18:13:20,114 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 828 (C:\Users\User\Documents\TweetApp-SpringBoot-master\target\classes started by User in C:\Users\User\Documents\TweetApp-SpringBoot-master)
+2021-05-17 18:13:20,121 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-17 18:14:43,369 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 89.934 seconds (JVM running for 98.537)
+2021-05-17 19:17:44,888 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 8148 (C:\Users\User\Documents\TweetApp-SpringBoot-master\target\classes started by User in C:\Users\User\Documents\TweetApp-SpringBoot-master)
+2021-05-17 19:17:44,893 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-17 19:18:25,213 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 44.073 seconds (JVM running for 47.508)

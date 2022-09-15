@@ -1,0 +1,20 @@
+2021-06-06 17:18:22,263 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-10] #### -> Producing message -> jdhdh
+2021-06-06 17:19:28,039 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 18180 (C:\Users\User\Documents\TweetApplication_java\TweetApp\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\Documents\TweetApplication_java\TweetApp\TweetApp-SpringBoot)
+2021-06-06 17:19:28,045 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-06-06 17:19:44,618 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 18.4 seconds (JVM running for 20.317)
+2021-06-06 17:20:33,824 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-2] #### -> Producing message -> jdhdhjjj
+2021-06-06 17:21:34,070 ERROR org.springframework.kafka.support.LoggingProducerListener [http-nio-8090-exec-2] Exception thrown when sending a message with key='null' and payload='jdhdhjjj' to topic tweetApp:
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-06-06 17:21:34,136 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8090-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic tweetApp not present in metadata after 60000 ms.
+2021-06-06 17:32:19,043 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 1380 (C:\Users\User\Documents\TweetApplication_java\TweetApp\TweetApp-SpringBoot\target\classes started by User in C:\Users\User\Documents\TweetApplication_java\TweetApp\TweetApp-SpringBoot)
+2021-06-06 17:32:19,048 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-08-19 15:11:59,402 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.1 on Shubhs with PID 19816 (C:\Users\Lenovo\Desktop\Tweet App\TweetApp-master\TweetApp-master\TweetApp-SpringBoot\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\Tweet App\TweetApp-master\TweetApp-master\TweetApp-SpringBoot)
+2022-08-19 15:11:59,407 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-08-19 15:12:07,421 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 8.736 seconds (JVM running for 10.516)
+2022-08-19 15:15:30,982 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.1 on Shubhs with PID 1216 (C:\Users\Lenovo\Desktop\Tweet App\TweetApp-master\TweetApp-master\TweetApp-SpringBoot\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\Tweet App\TweetApp-master\TweetApp-master\TweetApp-SpringBoot)
+2022-08-19 15:15:30,988 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-08-19 15:15:46,160 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 17.309 seconds (JVM running for 21.979)
+2022-08-19 16:48:42,705 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 17.0.1 on Shubhs with PID 15276 (C:\Users\Lenovo\Desktop\Tweet App\TweetApp-master\TweetApp-master\TweetApp-SpringBoot\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\Tweet App\TweetApp-master\TweetApp-master\TweetApp-SpringBoot)
+2022-08-19 16:48:42,710 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2022-08-19 16:48:46,606 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 4.543 seconds (JVM running for 6.143)

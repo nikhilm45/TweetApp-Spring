@@ -1,0 +1,11 @@
+2021-05-18 11:05:22,778 INFO com.tweetapp.TweetAppApplication [main] Starting TweetAppApplication using Java 1.8.0_201 on Lab-637503662828404154-1 with PID 11308 (C:\Users\User\Documents\TweetApp-SpringBoot-master\target\classes started by User in C:\Users\User\Documents\TweetApp-SpringBoot-master)
+2021-05-18 11:05:22,882 INFO com.tweetapp.TweetAppApplication [main] The following profiles are active: nonprod
+2021-05-18 11:06:26,384 INFO com.tweetapp.TweetAppApplication [main] Started TweetAppApplication in 72.72 seconds (JVM running for 81.263)
+2021-05-18 18:53:23,422 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-7] #### -> Producing message -> 
+2021-05-18 18:53:24,329 INFO com.tweetapp.kafka.Producer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] #### -> Consumed message -> 
+2021-05-18 18:53:39,888 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-5] #### -> Producing message -> helloo
+2021-05-18 18:53:39,947 INFO com.tweetapp.kafka.Producer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] #### -> Consumed message -> helloo
+2021-05-18 18:58:11,593 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-6] #### -> Producing message -> helloo gshdj
+2021-05-18 18:58:11,617 INFO com.tweetapp.kafka.Producer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] #### -> Consumed message -> helloo gshdj
+2021-05-18 19:00:59,518 INFO com.tweetapp.kafka.Producer [http-nio-8090-exec-1] #### -> Producing message -> hii
+2021-05-18 19:00:59,590 INFO com.tweetapp.kafka.Producer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] #### -> Consumed message -> hii
